@@ -1,0 +1,75 @@
+
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="navbar.css">
+    <title>Navigation Bar</title>
+    <link rel="shortcut icon" href="res/tite.png" type="image/x-icon">
+</head>
+
+<body>
+    
+    <section class="hero">
+        <nav>
+            <img class="logo" src="res/logo.png" alt="" >
+
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#about" onclick="closeNav()">About</a> 
+                <a href="#home" onclick="closeNav()">Home</a> 
+                <a href="#service" onclick="closeNav()">Service</a> 
+                <a href="#portfolio" onclick="closeNav()">Portfolio</a>
+                <a href="#contact" onclick="closeNav()">Contact</a>
+            </div>
+
+            <span class="sideopen" onclick="openNav()">&#9776; </span>
+
+
+            <div class="navdiv">
+                <a href="#about">About</a> 
+                <a href="#home">Home</a> 
+                <a href="##service">Service</a> 
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </div>
+            
+            
+        </nav>
+
+        <div class="headcenter">
+            <div class="head" >.
+                <h1>TALKINGDOTS</h1>
+                <div class="subhead">
+                    <h3>ALJGH</h3>
+                    <h3>KJNFVG</h3>
+                    <h3>HKJBD</h3>
+
+                </div>
+                
+            </div>
+        </div>
+
+    </section>
+
+
+</body>
+
+</html>
+
+<script>
+
+
+function openNav() {
+  document.getElementById("mySidenav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+
+
+
+</script>
